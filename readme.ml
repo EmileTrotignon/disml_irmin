@@ -36,8 +36,6 @@ let author = "Example <example@example.com>"
 (* Commit information *)
 let info fmt = Irmin_unix.info ~author fmt
 
-module A = Disml
-
 let main =
   (* Open the repo *)
   let* repo = Store.Repo.v config in

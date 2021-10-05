@@ -1,0 +1,17 @@
+(executables
+ (names readme)
+ (libraries
+  disml
+  sexplib
+  astring
+  cohttp
+  fmt
+  git
+  irmin
+  irmin-git
+  irmin-unix
+  ppx_irmin
+  lwt
+  lwt.unix)
+ (preprocess
+  (pps ppx_irmin)))
